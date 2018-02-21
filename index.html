@@ -6,7 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Portafolio</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Concert+One|Roboto" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="assets/fontawesome/web-fonts-with-css/css/fontawesome.css"> -->
+  <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
 </head>
 
@@ -14,31 +18,35 @@
   <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="#">cV</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
           <a class="nav-item nav-link active" href="#about-me">Sobre mí</a>
+          <a class="nav-item nav-link" href="#skill">Habilidades</a>
           <a class="nav-item nav-link" href="#projects">Proyectos</a>
           <a class="nav-item nav-link disabled" href="#contact-me">Contáctame</a>
         </div>
       </div>
     </nav>
     <div class="d-flex align-items-center">
-      <p>Hola, soy Melyna bachiller en Ingeniería de Sistemas e Informática.</p>
+      <h1>Melyna front-end developer y bachiller en Ingeniería de Sistemas e Informática.</h1>
     </div>
   </header>
 
   <section id="about-me">
     <div class="container">
+      <h3 class="sub-title">Sobre mí</h3>
       <div class="row">
-        <div class="col-sm">
-          <h3>Sobre mí</h3>
+        <div class="col-12 col-md-6 text-center">
           <img src="assets/images/image-melyna.jpg" alt="image-melyna">
         </div>
-        <div class="col-sm">
-          <p>Hola, soy Melyna, front-end developer y bachiller en Ingeniería de Sistemas e Informática. Me encanta resolver problemas lógicos y disfruto programar todo el tiempo. A futuro quiero desarrollar aplicaciones que contribuyan a la sociedad.</p>
+        <div class="col-12  col-md-6">
+          <p class="">Hola, soy Melyna, front-end developer y bachiller en Ingeniería de Sistemas e Informática. Me encanta resolver
+            problemas lógicos y disfruto programar todo el tiempo. A futuro quiero desarrollar aplicaciones que contribuyan
+            a la sociedad.</p>
           <!-- <p>Hola soy Melyna bachiller en Ingeniería de Sistemas e Informática y front-end developer.</p>
           <p>Disfruto y me apaciona la programación, ya que todo lo lo que pienso lo hago realidad atraves de ella.</p>
           <p>Tambien me gusta resolver problemas de matemáticas, puesto que me ayuda a desarrollar más la parte lógica.</p>
@@ -47,11 +55,51 @@
       </div>
     </div>
   </section>
+  <section id="skill">
+    <div class="container">
+      <h2 class="sub-title">Habilidades</h2>
+      
+      <div class="row">
+        <div class="col-12 col-md-3 text-center">
+          <i class="fab fa-html5 fa-7x"></i>
+          <p>Html5</p>
+        </div>
+        <div class="col-12 col-md-3 text-center">
+          <i class="fab fa-css3-alt fa-7x"></i>
+          <p>Css3</p>
+        </div>
+        <div class="col-12 col-md-3 text-center">
+          <i class="fab fa-github fa-7x"></i>
+          <p>GitHub</p>
+        </div>
+        <div class="col-12 col-md-3 text-center">
+          <i class="fab fa-js fa-7x"></i>
+          <p>JavaScript</p>
+        </div>
+        <!-- <div class="col-3">
+          <i class="fab fa-css3-alt fa-7x"></i>
+        </div> -->
+        <!-- <div class="col-2">
+          <img class="img-fluid" src="assets/images/css.png" alt=""  >
+        </div>
+        <div class="col-2">
+          <img class="img-fluid" src="assets/images/javascript.png" alt=""  >
+        </div>
+        <div class="col-2">
+          <img class="img-fluid" src="assets/images/bootstrap.png" alt=""  >
+        </div>
+        <div class="col-2">
+          <img class="img-fluid" src="assets/images/github.png" alt=""  >
+        </div> -->
+      </div>
+    </div>
+  </section>
   <section id="projects">
     <div class="container">
+      <h2 class="sub-title">Proyectos</h2>
       <div class="row">
         <div class="col-12">
-          <h2>Proyectos</h2>
+
           <div class="row">
             <div class="col-12 col-md-4">
               <div class="card">
@@ -90,8 +138,25 @@
   </section>
   <section id="contact-me">
     <div class="container">
-      <h2>Cantáctame</h2>
+      <h2 class="sub-title">Cantáctame</h2>
       <div class="row">
+        <div class="col-12 col-md-4 text-center">
+          <i class="fas fa-envelope fa-2x"></i>
+          <p>melynaperniaostos@gmail.com</p>
+        </div>
+        <div class="col-12 col-md-4 text-center">
+          <i class="fab fa-github fa-2x"></i>
+          <p>
+            <a href="https://github.com/MelynaPernia" target="_blank">https://github.com/MelynaPernia</a>
+          </p>
+        </div>
+        <div class="col-12 col-md-4 text-center">
+          <i class="fab fa-linkedin-in fa-2x"></i>
+          <p>
+            <a href="https://www.linkedin.com/in/melynapernia" target="_blank">https://www.linkedin.com/in/melynapernia</a>
+          </p>
+        </div>
+
 
       </div>
 
@@ -107,9 +172,12 @@
     </div>
 
   </footer>
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
 
 </body>
 
