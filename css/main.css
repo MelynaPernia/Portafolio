@@ -1,8 +1,68 @@
-section {
-  height: 50vh;
+header {
+  height: 100vh;
+  background: url('../assets/images/home.jpg');
+  background-position: center;
+  background-size: cover;
 }
+
+nav {
+  position: fixed!important;
+  width: 100vw;
+  z-index: 1000;
+}
+
 footer {
   background-color: black;
   padding: 2vh 0;
   color: white;
+}
+
+.navbar-nav a {
+  /* color: black!important;
+  font-weight: 700!important;
+  background-color: #fff;
+  margin-left: 2vh;
+  border-radius: 5vh;
+  border-bottom: 4px solid; */
+  /* border: 1px solid red; */
+}
+
+.navbar-nav a:hover {
+  /* border-bottom: 4px solid; */
+  background-color: #c2c2c2;
+  border: 1px solid #000;
+}
+
+header>div {
+  /* padding-top: 40vh; */
+  /* border: 10px solid red!important; */
+  height: 80vh;
+  /* width: 25%; */
+  padding: 10px;
+  /* line-height: 1.5px; */
+  font-size: 20px;
+  /* border-bottom: 5px solid #000!important;
+  border-right: 5px solid #000!important; */
+  border-bottom-right-radius: 5vh;
+}
+
+#about-me, #projects, #contact-me {
+  /* padding-top: 100vh; */
+  /* height: 80vh; */
+}
+
+
+
+@media screen and (min-width:760px) {
+  .navbar-nav a {
+    color: black!important;
+    font-weight: 700!important;
+    background-color: #fff;
+    margin-left: 2vh;
+    border-radius: 5vh!important;
+    border-bottom: 4px solid;
+  }
+  #about-me, #projects, #contact-me{
+    padding-top: 20vh;
+  }
 }
