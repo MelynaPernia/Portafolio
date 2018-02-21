@@ -29,8 +29,8 @@ footer {
 
 .navbar-nav a:hover {
   /* border-bottom: 4px solid; */
-  background-color: #c2c2c2;
-  border: 1px solid #000;
+  /* background-color: #c2c2c2; */
+  /* border: 1px solid #000; */
 }
 
 header>div {
@@ -57,12 +57,17 @@ header>div {
   .navbar-nav a {
     color: black!important;
     font-weight: 700!important;
-    background-color: #fff;
+    /* background-color: #fff; */
     margin-left: 2vh;
-    border-radius: 5vh!important;
-    border-bottom: 4px solid;
+    /* border-radius: 5vh!important; */
+    /* border-bottom: 4px solid; */
   }
   #about-me, #projects, #contact-me{
     padding-top: 20vh;
+  }
+  .navbar-nav a:hover {
+    /* border-bottom: 4px solid; */
+    /* background-color: #c2c2c2; */
+    border-bottom: 4px solid #000;;
   }
 }
