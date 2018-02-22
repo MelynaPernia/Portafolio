@@ -8,57 +8,56 @@
   <title>Portafolio</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
     crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Concert+One|Roboto" rel="stylesheet">
-  <!-- <link rel="stylesheet" href="assets/fontawesome/web-fonts-with-css/css/fontawesome.css"> -->
+  <link href="https://fonts.googleapis.com/css?family=Concert+One|Roboto|Kaushan+Script" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Changa" rel="stylesheet">
   <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">cV</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-black">
+      <a class="navbar-brand text-white text-logo" href="#">mp</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
         aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-item nav-link active" href="#about-me">Sobre mí</a>
-          <a class="nav-item nav-link" href="#skill">Habilidades</a>
-          <a class="nav-item nav-link" href="#projects">Proyectos</a>
-          <a class="nav-item nav-link disabled" href="#contact-me">Contáctame</a>
+          <a class="nav-item nav-link active text-white pl-3 pr-3 font-weight-bold" href="#about-me">Sobre mí</a>
+          <a class="nav-item nav-link text-white pl-3 pr-3 font-weight-bold" href="#skill">Habilidades</a>
+          <a class="nav-item nav-link text-white pl-3 pr-3 font-weight-bold" href="#projects">Proyectos</a>
+          <a class="nav-item nav-link text-white pl-3 pr-3 font-weight-bold" href="#contact-me">Contáctame</a>
         </div>
       </div>
     </nav>
     <div class="d-flex align-items-center">
-      <h1>Melyna front-end developer y bachiller en Ingeniería de Sistemas e Informática.</h1>
+      <div class="title">
+        <h1 class="font-weight-bold">&lt; Melyna, front-end developer y bachiller en Ingeniería de Sistemas e Informática. &gt;</h1>
+      </div>
+
     </div>
   </header>
 
   <section id="about-me">
     <div class="container">
-      <h3 class="sub-title">Sobre mí</h3>
+      <h3 class="sub-title mb-5">Sobre mí</h3>
       <div class="row">
         <div class="col-12 col-md-6 text-center">
-          <img src="assets/images/image-melyna.jpg" alt="image-melyna">
+          <img src="assets/images/image-melyna.jpg" alt="image-melyna" class="img-thumbnail">
         </div>
         <div class="col-12  col-md-6">
-          <p class="">Hola, soy Melyna, front-end developer y bachiller en Ingeniería de Sistemas e Informática. Me encanta resolver
+          <p class="text-justify">Hola, soy Melyna, front-end developer y bachiller en Ingeniería de Sistemas e Informática. Me encanta resolver
             problemas lógicos y disfruto programar todo el tiempo. A futuro quiero desarrollar aplicaciones que contribuyan
-            a la sociedad.</p>
-          <!-- <p>Hola soy Melyna bachiller en Ingeniería de Sistemas e Informática y front-end developer.</p>
-          <p>Disfruto y me apaciona la programación, ya que todo lo lo que pienso lo hago realidad atraves de ella.</p>
-          <p>Tambien me gusta resolver problemas de matemáticas, puesto que me ayuda a desarrollar más la parte lógica.</p>
-          <p>Finalmente me encantaría ser una gran desarrolladora y hacer sistemas que tracieda la sociedad.</p> -->
+            a la sociedad en los sectores de seguridad, salud, entre otros.</p>
         </div>
       </div>
     </div>
   </section>
   <section id="skill">
     <div class="container">
-      <h2 class="sub-title">Habilidades</h2>
-      
+      <h2 class="sub-title mb-5">Habilidades</h2>
+
       <div class="row">
         <div class="col-12 col-md-3 text-center">
           <i class="fab fa-html5 fa-7x"></i>
@@ -76,9 +75,15 @@
           <i class="fab fa-js fa-7x"></i>
           <p>JavaScript</p>
         </div>
-        <!-- <div class="col-3">
-          <i class="fab fa-css3-alt fa-7x"></i>
-        </div> -->
+        <div class="col-12 col-md-3 text-center">
+          <img class="img-fluid" src="assets/images/bootstrap.png" alt="Bootstrap" width="50%">
+        </div>
+        <div class="col-12 col-md-3 text-center">
+          <img class="img-fluid" src="assets/images/materialize.png" alt="Bootstrap" width="50%">
+        </div>
+        <div class="col-12 col-md-3 text-center">
+          <img class="img-fluid" src="assets/images/jquery-1.png" alt="Bootstrap" width="50%">
+        </div>
         <!-- <div class="col-2">
           <img class="img-fluid" src="assets/images/css.png" alt=""  >
         </div>
@@ -96,7 +101,7 @@
   </section>
   <section id="projects">
     <div class="container">
-      <h2 class="sub-title">Proyectos</h2>
+      <h2 class="sub-title mb-5">Proyectos</h2>
       <div class="row">
         <div class="col-12">
 
@@ -104,30 +109,33 @@
             <div class="col-12 col-md-4">
               <div class="card">
                 <div class="card-body">
-                  <h5 class="card-title">lab-car-boilerplate</h5>
-                  <p class="card-text">Es una aplicación que te ayudará a trazar tu ruta, para salir más seguro.</p>
-                  <img class="img-fluid" src="assets/images/image-lab-car.PNG" alt="">
-                  <a href="https://melynapernia.github.io/lab-car-boilerplate/" class="btn btn-primary" target="_blank">ver</a>
+                  <h5 class="card-title font-weight-bold">lab-car-boilerplate</h5>
+                  <!-- <hr> -->
+                  <p class="card-text text-justify">Es una aplicación que te ayudará a trazar tu ruta, para salir más seguro.</p>
+                  <img class="img-fluid border" src="assets/images/image-lab-car.PNG" alt="">
+                  <a href="https://melynapernia.github.io/lab-car-boilerplate/" class="btn btn-info mt-3" target="_blank">ver</a>
                 </div>
               </div>
             </div>
             <div class="col-12 col-md-4">
               <div class="card">
                 <div class="card-body">
-                  <h5 class="card-title">Avant-premier</h5>
-                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                  <img class="img-fluid" src="assets/images/avant-premier.PNG" alt="">
-                  <a href="https://melynapernia.github.io/avant-premier/" class="btn btn-primary" target="_blank">ver</a>
+                  <h5 class="card-title font-weight-bold">Avant-premier</h5>
+                  <!-- <hr> -->
+                  <p class="card-text text-justify">Avant premier es un sitio web, donde te brindará información de las películas en estreno.</p>
+                  <img class="img-fluid border" src="assets/images/avant-premier.PNG" alt="">
+                  <a href="https://melynapernia.github.io/avant-premier/" class="btn btn-info mt-3" target="_blank">ver</a>
                 </div>
               </div>
             </div>
             <div class="col-12 col-md-4">
               <div class="card">
                 <div class="card-body">
-                  <h5 class="card-title">Trip-love</h5>
-                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                  <img class="img-fluid" src="assets/images/trip-love.PNG" alt="">
-                  <a href="#" class="btn btn-primary" target="_blank">ver</a>
+                  <h5 class="card-title font-weight-bold">Trip-lovers</h5>
+                  <p class="card-text text-justify">Trip lovers es una red social donde descubrirás nuevos lugares para viajar y sobre todo compartirás con
+                    tus amigos tus experiencias.</p>
+                  <img class="img-fluid border" src="assets/images/trip-love.PNG" alt="">
+                  <a href="https://melynapernia.github.io/trip-lovers" class="btn btn-info mt-3" target="_blank">ver</a>
                 </div>
               </div>
             </div>
@@ -138,7 +146,7 @@
   </section>
   <section id="contact-me">
     <div class="container">
-      <h2 class="sub-title">Cantáctame</h2>
+      <h2 class="sub-title mt-5 mb-5">Cantáctame</h2>
       <div class="row">
         <div class="col-12 col-md-4 text-center">
           <i class="fas fa-envelope fa-2x"></i>
@@ -156,10 +164,7 @@
             <a href="https://www.linkedin.com/in/melynapernia" target="_blank">https://www.linkedin.com/in/melynapernia</a>
           </p>
         </div>
-
-
       </div>
-
     </div>
   </section>
   <footer>
@@ -170,7 +175,6 @@
         </div>
       </div>
     </div>
-
   </footer>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
     crossorigin="anonymous"></script>
