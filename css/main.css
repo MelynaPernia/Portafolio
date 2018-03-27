@@ -75,6 +75,10 @@ footer {
   text-decoration-line: underline;
 }
 
+#skill, #contact-me {
+  background-color: #f0f0f0;
+}
+
 .btn {
   /* background-color: #1A3B59 */
 }
