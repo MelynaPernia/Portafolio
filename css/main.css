@@ -34,7 +34,8 @@ nav {
 
 .card {
   box-shadow: 3px 3px 2px #c3c3c3;
-  margin: 2vh;
+  height: auto;
+  margin-bottom: 2vh;
 }
 
 footer {
@@ -66,7 +67,7 @@ footer {
 }
 
 #skill .fab:hover {
-  color: #1B9AAA;
+  color: #344373;
   font-size: 150px;
 }
 
@@ -75,17 +76,33 @@ footer {
   text-decoration-line: underline;
 }
 
-#skill, #contact-me {
+#skill,
+#contact-me {
   background-color: #f0f0f0;
 }
-
-.btn {
-  /* background-color: #1A3B59 */
+#contact-me {
+  padding-top: 10vh
+}
+.btn-dark {
+  background-color: #344373;
 }
 
 .btn-dark:hover {
   background-color: #FFFFFF;
-  color: #050505
+  color: #344373
+}
+
+#contact-me a {
+  color: #344373
+}
+
+#contact-me a:hover {
+  font-weight: bold;
+}
+
+#projects {
+  height: auto;
+  padding-bottom: 10vh
 }
 
 @media screen and (min-width:760px) {
@@ -93,12 +110,22 @@ footer {
     width: 50%;
   }
   .navbar-nav a:hover {
-    border-bottom: 4px solid #1B9AAA;
+    border-bottom: 4px solid #344373;
     font-size: 18px;
   }
   #about-me,
   #skill {
-    height: 85vh;
+    height: 100vh;
+  }
+  #projects {
+    height: 100%;
+    margin-bottom: 10vh;
+  }
+  #contact-me {
+    height: 80vh;
+  }
+  #projects .card {
+    height: 80vh
   }
   #skill .row>div {
     margin-top: 2vh;
