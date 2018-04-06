@@ -27,7 +27,6 @@ nav {
   box-shadow: 1px 3px 3px #DDDBCB;
   color: #FFFFFF !important;
   opacity: 0.9;
-  position: fixed !important;
   width: 100vw;
   z-index: 1000;
 }
@@ -76,13 +75,19 @@ footer {
   text-decoration-line: underline;
 }
 
+#skill img {
+  height: 17vh
+}
+
 #skill,
 #contact-me {
   background-color: #f0f0f0;
 }
+
 #contact-me {
   padding-top: 10vh
 }
+
 .btn-dark {
   background-color: #344373;
 }
@@ -98,11 +103,6 @@ footer {
 
 #contact-me a:hover {
   font-weight: bold;
-}
-
-#projects {
-  height: auto;
-  padding-bottom: 10vh
 }
 
 @media screen and (min-width:760px) {
@@ -124,6 +124,10 @@ footer {
   #contact-me {
     height: 80vh;
   }
+  #skill img {
+    height: 15vh
+  }
+  /* esto si */
   #projects .card {
     height: 80vh
   }
@@ -136,6 +140,9 @@ footer {
   header h1 {
     font-size: 30px;
     line-height: 1.5
+  }
+  #contact-me .row div {
+    margin-bottom: 8vh;
   }
 }
 
